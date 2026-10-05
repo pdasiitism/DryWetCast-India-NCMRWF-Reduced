@@ -1,0 +1,21 @@
+# Downloads and caches (~1 GB per cycle)
+_scratch*/
+gefs_*_*z/
+aifs_*_*z/
+.regrid_cache/
+*.part
+
+# Forecast outputs
+/forecast_ncmrwf_reduced.png
+/forecast_ncmrwf_reduced.npz
+outputs/
+archive/
+
+# Logs, Python and editor clutter
+slurm/logs/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.env
